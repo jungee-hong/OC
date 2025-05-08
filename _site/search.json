@@ -11,7 +11,7 @@
     "href": "chapters/discrete_ddp.html",
     "title": "Discrete time DDP",
     "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).\n\n\n\n\n\n\nFigure 1: Rotation diagram",
     "crumbs": [
       "1. DDP",
       "Discrete time DDP"
@@ -22,7 +22,7 @@
     "href": "chapters/discrete_ddp.html#discrete-time-ddp",
     "title": "Discrete time DDP",
     "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).\n\n\n\n\n\n\nFigure 1: Rotation diagram",
     "crumbs": [
       "1. DDP",
       "Discrete time DDP"
