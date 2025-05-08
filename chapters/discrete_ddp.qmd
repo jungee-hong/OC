@@ -28,3 +28,6 @@ display(plt)
 
 
 Mechanical systems on Lie groups are often modeled as left-invariant control systems [@jackson2021planning].
+
+
+![Rotation diagram](../figures/dragon.png){#fig-dragon width=70%}
