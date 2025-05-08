@@ -1,0 +1,30 @@
+---
+title: "Discrete time DDP"
+engine: julia
+crossref:
+  fig-prefix: Fig.
+  eq-prefix: Eq.
+  tbl-prefix: Table
+bibliography: ../bibliography/ref_ddp.bib
+format:
+  html:
+    html-math-method: mathjax
+    toc: true
+    code-fold: true
+    code-summary: "Show code"
+---
+
+
+## Discrete time DDP
+
+
+```{julia}
+using Pkg
+println(Pkg.project().path)
+using Plots
+plt = plot(sin, 0, 2π)
+display(plt)
+```
+
+
+Mechanical systems on Lie groups are often modeled as left-invariant control systems [@jackson2021planning].

@@ -1,0 +1,43 @@
+name: Publish Quarto Site
+
+on:
+  workflow_dispatch:     # 수동 실행 가능
+  push:
+    branches: [main]     # main 브랜치 push 시 자동 실행
+
+permissions:
+  contents: write        # gh-pages 브랜치에 푸시 권한
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Set up Julia
+        uses: julia-actions/setup-julia@v2
+        with:
+          version: '1.10.9'  # 로컬과 동일한 버전
+          project: '.'
+
+      - name: Julia package cache
+        uses: julia-actions/cache@v2
+
+      - name: Julia instantiate
+        run: julia --project=. -e 'using Pkg; Pkg.instantiate()'
+
+      - name: Render Quarto site
+        run: quarto render
+
+      - name: Publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+          path: .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

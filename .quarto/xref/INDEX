@@ -1,0 +1,14 @@
+{
+  "chapters/convex_mpc.qmd": {
+    "convex_mpc.html": "4f36375e"
+  },
+  "index.qmd": {
+    "index.html": "a6f5929d"
+  },
+  "chapters/discrete_ddp.qmd": {
+    "discrete_ddp.html": "8cc4c6f6"
+  },
+  "example/LQR.ipynb": {
+    "LQR.html": "bf4e87cf"
+  }
+}

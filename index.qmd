@@ -1,0 +1,10 @@
+---
+title: "Optimal Control"
+format: html
+---
+
+## purpose
+Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them.
+
+
+![](figures/logo.png){width=200px style="display:block; margin-left:auto; margin-right:auto;"}

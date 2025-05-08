@@ -1,0 +1,31 @@
+---
+title: "Convex MPC"
+engine: julia
+crossref:
+  fig-prefix: Fig.
+  eq-prefix: Eq.
+  tbl-prefix: Table
+bibliography: ../bibliography/ref_convexmpc.bib
+format:
+  html:
+    html-math-method: mathjax
+    toc: true
+    code-fold: true
+    code-summary: "Show code"
+---
+
+
+## MPC
+
+
+
+```{julia}
+using Pkg
+println(Pkg.project().path)
+using Plots
+plt = plot(sin, 0, 2π)
+display(plt)
+```
+
+
+
