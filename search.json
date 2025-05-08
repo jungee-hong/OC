@@ -1,7 +1,7 @@
 [
   {
-    "objectID": "chapters/discrete_ddp.html",
-    "href": "chapters/discrete_ddp.html",
+    "objectID": "discrete_ddp.html",
+    "href": "discrete_ddp.html",
     "title": "Discrete time DDP",
     "section": "",
     "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/OC/OC/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).\n\n\n\n\n\n\nFigure 1: Rotation diagram",
@@ -11,8 +11,8 @@
     ]
   },
   {
-    "objectID": "chapters/discrete_ddp.html#discrete-time-ddp",
-    "href": "chapters/discrete_ddp.html#discrete-time-ddp",
+    "objectID": "discrete_ddp.html#discrete-time-ddp",
+    "href": "discrete_ddp.html#discrete-time-ddp",
     "title": "Discrete time DDP",
     "section": "",
     "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/OC/OC/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).\n\n\n\n\n\n\nFigure 1: Rotation diagram",
@@ -22,8 +22,8 @@
     ]
   },
   {
-    "objectID": "chapters/convex_mpc.html",
-    "href": "chapters/convex_mpc.html",
+    "objectID": "convex_mpc.html",
+    "href": "convex_mpc.html",
     "title": "Convex MPC",
     "section": "",
     "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/OC/OC/Project.toml\nGKS: cannot open display - headless operation mode active",
@@ -33,8 +33,8 @@
     ]
   },
   {
-    "objectID": "chapters/convex_mpc.html#mpc",
-    "href": "chapters/convex_mpc.html#mpc",
+    "objectID": "convex_mpc.html#mpc",
+    "href": "convex_mpc.html#mpc",
     "title": "Convex MPC",
     "section": "",
     "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/OC/OC/Project.toml\nGKS: cannot open display - headless operation mode active",
@@ -44,24 +44,23 @@
     ]
   },
   {
-    "objectID": "example/LQR.html",
-    "href": "example/LQR.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Optimal Control",
     "section": "",
-    "text": "import Pkg\nusing Plots\nPkg.activate(\"..\")\nPkg.instantiate()\n\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n  Activating project at `~/blog/Dailynote/KinematicsDynamics`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them.",
+    "crumbs": [
+      "Optimal Control"
+    ]
   },
   {
-    "objectID": "chapters/index.html",
-    "href": "chapters/index.html",
+    "objectID": "index.html#purpose",
+    "href": "index.html#purpose",
     "title": "Optimal Control",
     "section": "",
-    "text": "Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them."
-  },
-  {
-    "objectID": "chapters/index.html#purpose",
-    "href": "chapters/index.html#purpose",
-    "title": "Optimal Control",
-    "section": "",
-    "text": "Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them."
+    "text": "Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them.",
+    "crumbs": [
+      "Optimal Control"
+    ]
   }
 ]
