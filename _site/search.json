@@ -1,21 +1,46 @@
 [
   {
-    "objectID": "chapters/DiscreteDDP.html",
-    "href": "chapters/DiscreteDDP.html",
-    "title": "Discrete time DDP",
+    "objectID": "example/LQR.html",
+    "href": "example/LQR.html",
+    "title": "Optimal Control",
     "section": "",
-    "text": "Show code\nusing Pkg\nPkg.activate(\"..\")\nPkg.instantiate()\n\n\n\n  Activating project at `~/blog/Dailynote/OptimalControl`\n\n\n\n\n\n\nShow code\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).\n\n\n\n\nJackson, Brian E., Kevin Tracy, and Zachary Manchester. 2021. “Planning with Attitude.” IEEE Robotics and Automation Letters 6 (3): 5658–64. https://doi.org/10.1109/LRA.2021.3052431."
+    "text": "import Pkg\nusing Plots\nPkg.activate(\"..\")\nPkg.instantiate()\n\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n  Activating project at `~/blog/Dailynote/KinematicsDynamics`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "chapters/DiscreteDDP.html#discrete-time-ddp",
-    "href": "chapters/DiscreteDDP.html#discrete-time-ddp",
+    "objectID": "chapters/discrete_ddp.html",
+    "href": "chapters/discrete_ddp.html",
     "title": "Discrete time DDP",
     "section": "",
-    "text": "Show code\nusing Pkg\nPkg.activate(\"..\")\nPkg.instantiate()\n\n\n\n  Activating project at `~/blog/Dailynote/OptimalControl`\n\n\n\n\n\n\nShow code\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).\n\n\n\n\nJackson, Brian E., Kevin Tracy, and Zachary Manchester. 2021. “Planning with Attitude.” IEEE Robotics and Automation Letters 6 (3): 5658–64. https://doi.org/10.1109/LRA.2021.3052431."
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).",
+    "crumbs": [
+      "1. DDP",
+      "Discrete time DDP"
+    ]
+  },
+  {
+    "objectID": "chapters/discrete_ddp.html#discrete-time-ddp",
+    "href": "chapters/discrete_ddp.html#discrete-time-ddp",
+    "title": "Discrete time DDP",
+    "section": "",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).",
+    "crumbs": [
+      "1. DDP",
+      "Discrete time DDP"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
+    "title": "Optimal Control",
+    "section": "",
+    "text": "Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them.",
+    "crumbs": [
+      "Optimal Control"
+    ]
+  },
+  {
+    "objectID": "index.html#purpose",
+    "href": "index.html#purpose",
     "title": "Optimal Control",
     "section": "",
     "text": "Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them.",
@@ -43,45 +68,6 @@
     "crumbs": [
       "2. MPC",
       "Convex MPC"
-    ]
-  },
-  {
-    "objectID": "example/LQR.html",
-    "href": "example/LQR.html",
-    "title": "Optimal Control",
-    "section": "",
-    "text": "import Pkg\nusing Plots\nPkg.activate(\"..\")\nPkg.instantiate()\n\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n  Activating project at `~/blog/Dailynote/KinematicsDynamics`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "index.html#purpose",
-    "href": "index.html#purpose",
-    "title": "Optimal Control",
-    "section": "",
-    "text": "Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them.",
-    "crumbs": [
-      "Optimal Control"
-    ]
-  },
-  {
-    "objectID": "chapters/discrete_ddp.html",
-    "href": "chapters/discrete_ddp.html",
-    "title": "Discrete time DDP",
-    "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).",
-    "crumbs": [
-      "1. DDP",
-      "Discrete time DDP"
-    ]
-  },
-  {
-    "objectID": "chapters/discrete_ddp.html#discrete-time-ddp",
-    "href": "chapters/discrete_ddp.html#discrete-time-ddp",
-    "title": "Discrete time DDP",
-    "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).",
-    "crumbs": [
-      "1. DDP",
-      "Discrete time DDP"
     ]
   }
 ]
