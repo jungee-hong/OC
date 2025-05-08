@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jungee-hong.github.io/OC/chapters/discrete_ddp.html</loc>
-    <lastmod>2025-05-08T12:44:04.721Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jungee-hong.github.io/OC/index.html</loc>
-    <lastmod>2025-05-08T12:44:04.724Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jungee-hong.github.io/OC/example/LQR.html</loc>
-    <lastmod>2025-05-08T12:44:04.721Z</lastmod>
+    <lastmod>2025-05-08T14:33:16.105Z</lastmod>
   </url>
   <url>
     <loc>https://jungee-hong.github.io/OC/chapters/convex_mpc.html</loc>
-    <lastmod>2025-05-08T12:44:04.721Z</lastmod>
+    <lastmod>2025-05-08T14:33:16.105Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jungee-hong.github.io/OC/example/LQR.html</loc>
+    <lastmod>2025-05-08T14:33:16.105Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jungee-hong.github.io/OC/chapters/index.html</loc>
+    <lastmod>2025-05-08T14:33:16.105Z</lastmod>
   </url>
 </urlset>

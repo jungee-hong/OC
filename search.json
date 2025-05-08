@@ -22,33 +22,6 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Optimal Control",
-    "section": "",
-    "text": "Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them.",
-    "crumbs": [
-      "Optimal Control"
-    ]
-  },
-  {
-    "objectID": "index.html#purpose",
-    "href": "index.html#purpose",
-    "title": "Optimal Control",
-    "section": "",
-    "text": "Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them.",
-    "crumbs": [
-      "Optimal Control"
-    ]
-  },
-  {
-    "objectID": "example/LQR.html",
-    "href": "example/LQR.html",
-    "title": "Optimal Control",
-    "section": "",
-    "text": "import Pkg\nusing Plots\nPkg.activate(\"..\")\nPkg.instantiate()\n\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n  Activating project at `~/blog/Dailynote/KinematicsDynamics`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
     "objectID": "chapters/convex_mpc.html",
     "href": "chapters/convex_mpc.html",
     "title": "Convex MPC",
@@ -69,5 +42,26 @@
       "2. MPC",
       "Convex MPC"
     ]
+  },
+  {
+    "objectID": "example/LQR.html",
+    "href": "example/LQR.html",
+    "title": "Optimal Control",
+    "section": "",
+    "text": "import Pkg\nusing Plots\nPkg.activate(\"..\")\nPkg.instantiate()\n\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n  Activating project at `~/blog/Dailynote/KinematicsDynamics`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "chapters/index.html",
+    "href": "chapters/index.html",
+    "title": "Optimal Control",
+    "section": "",
+    "text": "Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them."
+  },
+  {
+    "objectID": "chapters/index.html#purpose",
+    "href": "chapters/index.html#purpose",
+    "title": "Optimal Control",
+    "section": "",
+    "text": "Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them."
   }
 ]
