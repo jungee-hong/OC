@@ -1,32 +1,10 @@
 [
   {
-    "objectID": "discrete_ddp.html",
-    "href": "discrete_ddp.html",
-    "title": "Discrete time DDP",
-    "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/OC/OC/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).\n\n\n\n\n\n\nFigure 1: Rotation diagram",
-    "crumbs": [
-      "1. DDP",
-      "Discrete time DDP"
-    ]
-  },
-  {
-    "objectID": "discrete_ddp.html#discrete-time-ddp",
-    "href": "discrete_ddp.html#discrete-time-ddp",
-    "title": "Discrete time DDP",
-    "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/OC/OC/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).\n\n\n\n\n\n\nFigure 1: Rotation diagram",
-    "crumbs": [
-      "1. DDP",
-      "Discrete time DDP"
-    ]
-  },
-  {
     "objectID": "convex_mpc.html",
     "href": "convex_mpc.html",
     "title": "Convex MPC",
     "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/OC/OC/Project.toml\nGKS: cannot open display - headless operation mode active",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml",
     "crumbs": [
       "2. MPC",
       "Convex MPC"
@@ -37,7 +15,7 @@
     "href": "convex_mpc.html#mpc",
     "title": "Convex MPC",
     "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/OC/OC/Project.toml\nGKS: cannot open display - headless operation mode active",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml",
     "crumbs": [
       "2. MPC",
       "Convex MPC"
@@ -61,6 +39,28 @@
     "text": "Knowing various methods for formulating and solving optimal control problems, including the use of numerical methods for solving them.",
     "crumbs": [
       "Optimal Control"
+    ]
+  },
+  {
+    "objectID": "discrete_ddp.html",
+    "href": "discrete_ddp.html",
+    "title": "Discrete time DDP",
+    "section": "",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).\n\n\n\n\n\n\nFigure 1: Rotation diagram",
+    "crumbs": [
+      "1. DDP",
+      "Discrete time DDP"
+    ]
+  },
+  {
+    "objectID": "discrete_ddp.html#discrete-time-ddp",
+    "href": "discrete_ddp.html#discrete-time-ddp",
+    "title": "Discrete time DDP",
+    "section": "",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).\n\n\n\n\n\n\nFigure 1: Rotation diagram",
+    "crumbs": [
+      "1. DDP",
+      "Discrete time DDP"
     ]
   }
 ]
