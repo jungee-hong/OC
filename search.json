@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "example/LQR.html",
-    "href": "example/LQR.html",
-    "title": "Optimal Control",
-    "section": "",
-    "text": "import Pkg\nusing Plots\nPkg.activate(\"..\")\nPkg.instantiate()\n\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n  Activating project at `~/blog/Dailynote/KinematicsDynamics`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
     "objectID": "chapters/discrete_ddp.html",
     "href": "chapters/discrete_ddp.html",
     "title": "Discrete time DDP",
     "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/OC/OC/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).",
     "crumbs": [
       "1. DDP",
       "Discrete time DDP"
@@ -22,7 +15,7 @@
     "href": "chapters/discrete_ddp.html#discrete-time-ddp",
     "title": "Discrete time DDP",
     "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/OC/OC/Project.toml\nGKS: cannot open display - headless operation mode active\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMechanical systems on Lie groups are often modeled as left-invariant control systems (Jackson, Tracy, and Manchester 2021).",
     "crumbs": [
       "1. DDP",
       "Discrete time DDP"
@@ -49,11 +42,18 @@
     ]
   },
   {
+    "objectID": "example/LQR.html",
+    "href": "example/LQR.html",
+    "title": "Optimal Control",
+    "section": "",
+    "text": "import Pkg\nusing Plots\nPkg.activate(\"..\")\nPkg.instantiate()\n\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n  Activating project at `~/blog/Dailynote/KinematicsDynamics`\n\n\n\n\n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n  \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "chapters/convex_mpc.html",
     "href": "chapters/convex_mpc.html",
     "title": "Convex MPC",
     "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/OC/OC/Project.toml\nGKS: cannot open display - headless operation mode active",
     "crumbs": [
       "2. MPC",
       "Convex MPC"
@@ -64,7 +64,7 @@
     "href": "chapters/convex_mpc.html#mpc",
     "title": "Convex MPC",
     "section": "",
-    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/asl/blog/OC/Project.toml",
+    "text": "Show code\nusing Pkg\nprintln(Pkg.project().path)\nusing Plots\nplt = plot(sin, 0, 2π)\ndisplay(plt)\n\n\n/home/runner/work/OC/OC/Project.toml\nGKS: cannot open display - headless operation mode active",
     "crumbs": [
       "2. MPC",
       "Convex MPC"

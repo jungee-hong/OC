@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jungee-hong.github.io/OC/example/LQR.html</loc>
-    <lastmod>2025-05-08T11:27:33.765Z</lastmod>
-  </url>
-  <url>
     <loc>https://jungee-hong.github.io/OC/chapters/discrete_ddp.html</loc>
-    <lastmod>2025-05-08T11:27:33.765Z</lastmod>
+    <lastmod>2025-05-08T11:36:43.157Z</lastmod>
   </url>
   <url>
     <loc>https://jungee-hong.github.io/OC/index.html</loc>
-    <lastmod>2025-05-08T11:27:33.765Z</lastmod>
+    <lastmod>2025-05-08T11:36:43.158Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jungee-hong.github.io/OC/example/LQR.html</loc>
+    <lastmod>2025-05-08T11:36:43.157Z</lastmod>
   </url>
   <url>
     <loc>https://jungee-hong.github.io/OC/chapters/convex_mpc.html</loc>
-    <lastmod>2025-05-08T11:27:33.765Z</lastmod>
+    <lastmod>2025-05-08T11:36:43.157Z</lastmod>
   </url>
 </urlset>
