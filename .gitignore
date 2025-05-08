@@ -1,6 +1,6 @@
 # Quarto build outputs
-_site/
-.quarto/
+/_site/
+/.quarto/
 
 
 # VS Code and OS junk
@@ -12,4 +12,3 @@ _site/
 */_freeze/
 */_files/
 
-/.quarto/

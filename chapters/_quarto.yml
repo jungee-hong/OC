@@ -3,8 +3,6 @@ project:
 
 website:
   title: "Optimal Control"
-  site-url: https://jungee-hong.github.io/OC/
-  description: "Study notes on optimal control theory and applications"
   repo-url: https://github.com/jungee-hong/OC
   repo-actions: [edit, issue]
   sidebar:
@@ -13,11 +11,11 @@ website:
       - section: "1. DDP"
         contents:
           - text: "Discrete time DDP"
-            href: chapters/discrete_ddp.qmd
+            href: discrete_ddp.qmd
       - section: "2. MPC"
         contents:
           - text: "Convex MPC"
-            href: chapters/convex_mpc.qmd
+            href: convex_mpc.qmd
   page-navigation: true
   back-to-top-navigation: true
 

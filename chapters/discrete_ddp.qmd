@@ -5,7 +5,8 @@ crossref:
   fig-prefix: Fig.
   eq-prefix: Eq.
   tbl-prefix: Table
-bibliography: ../bibliography/ref_ddp.bib
+bibliography:
+    - ref_ddp.bib
 format:
   html:
     html-math-method: mathjax
@@ -30,4 +31,4 @@ display(plt)
 Mechanical systems on Lie groups are often modeled as left-invariant control systems [@jackson2021planning].
 
 
-![Rotation diagram](../figures/dragon.png){#fig-dragon width=70%}
+![Rotation diagram](/figures/dragon.png){#fig-dragon width=70%}

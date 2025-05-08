@@ -5,7 +5,8 @@ crossref:
   fig-prefix: Fig.
   eq-prefix: Eq.
   tbl-prefix: Table
-bibliography: ../bibliography/ref_convexmpc.bib
+bibliography:
+    - ref_ddp.bib
 format:
   html:
     html-math-method: mathjax
