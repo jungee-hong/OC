@@ -30,3 +30,10 @@ display(plt)
 
 
 
+
+## LQR example from Gist
+
+Below is an embedded Gist:
+
+```{=html}
+<script src="https://gist.github.com/jungee-hong/2d29a17c075faeef1ac80d4f50b1c5ab.js"></script>
